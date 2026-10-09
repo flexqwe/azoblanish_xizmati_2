@@ -4,7 +4,7 @@ from django.conf import settings
 from django.core.mail import send_mail
 from rest_framework.serializers import ValidationError
 
-from ..models import EmailCode
+from app.models import EmailCode
 
 ERROR = "Kod topilmadi, muddati tugagan yoki urinishlar tugagan"
 NOT_CONFIRMED = "Avval kodni tasdiqlang yoki kod muddati tugagan"
