@@ -10,7 +10,7 @@ from app.views import VerifyEmailView, ResendCodeView
 
 schema_view = get_schema_view(
     openapi.Info(
-        title="Radifus API",
+        title="Abdusalom API",
         default_version='v1',
         description="0 dan boshlab",
     ),
